@@ -1,6 +1,6 @@
 {
   "name": "@wehkamp/universal-log",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "description": "Flexible logger for Node.js and the browser",
   "keywords": [
     "log",
