@@ -49,7 +49,7 @@ export class UniversalLog {
 
     // make convenient shorthands bound to the instance
     let levels = [
-      'silence', 'trace', 'debug', 'info', 'notice', 'warning',
+      'silence', 'trace', 'debug', 'info', 'notice', 'warn',
       'error', 'critical', 'alert', 'emergency'
     ];
     for (let level of levels) {

@@ -7,7 +7,7 @@ const STYLES = {
   debug: { method: 'log', messageColor: chalk.gray },
   info: { method: 'info', levelColor: chalk.green },
   notice: { method: 'info', levelColor: chalk.yellow },
-  warning: { method: 'warn', levelColor: chalk.magenta },
+  warn: { method: 'warn', levelColor: chalk.magenta },
   error: { method: 'error', levelColor: chalk.red },
   critical: { method: 'error', levelColor: chalk.red.underline },
   alert: { method: 'error', levelColor: chalk.red.bold },
