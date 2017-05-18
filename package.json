@@ -24,6 +24,9 @@
     "type": "git",
     "url": "git://github.com/mvila/universal-log"
   },
+  "publishConfig": {
+    "registry": "https://wehkamp.jfrog.io/wehkamp/api/npm/blaze-npm-releases/"
+  },
   "scripts": {
     "compile": "babel src --out-dir lib",
     "prepublish": "npm run compile",
